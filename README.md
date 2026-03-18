@@ -5,3 +5,10 @@
 Создайте и настройте Dockerfile, а затем создайте образ приложения с учётом вашего Docker ID и c тегом v1.
 Когда образ будет создан, запустите из него контейнер.
 Приложение будет одноконтейнерным, поэтому создавать файл compose.yaml не нужно.
+
+### Docker ID repo
+https://hub.docker.com/repository/docker/artlosk/parcel-repo
+
+### Запуск
+###### docker build --tag parcel:v1 .
+###### docker run -p 8080:8080 parcel:v1
